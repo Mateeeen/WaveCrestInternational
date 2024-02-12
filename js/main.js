@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-
+    $('.header').css({'background':'#002e5f','box-shadow':'0 .2rem .5rem rgba(0,0,0,.4)'});
      $('.fa-bars').click(function(){
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
