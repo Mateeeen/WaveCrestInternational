@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
      $('.fa-bars').click(function(){
@@ -15,7 +16,7 @@ $(document).ready(function(){
         }
         else
         {
-            $('.header').css({'background':'none','box-shadow':'none'});
+            $('.header').css({'background':'#002e5f','box-shadow':'0 .2rem .5rem rgba(0,0,0,.4)'});
         }
     });
 
