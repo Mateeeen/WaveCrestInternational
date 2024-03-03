@@ -32,10 +32,10 @@ p {
 	bottom: 0;
 	right: 10px;
 	width: 45vw;
-	background-image: linear-gradient(150deg, #0088cc 0%, #0088cc 30%, #0169fe 70%, #0169fe 100%);
 	border-radius: 4px;
 	-webkit-box-shadow: 0 0 60px rgba(0, 0, 0, 0.06);
 					box-shadow: 0 0 60px rgba(0, 0, 0, 0.06);
+	background-color: #06003b;
 }
 
 @media (max-width: 1200px) {
