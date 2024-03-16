@@ -55,6 +55,26 @@
             .fa-star:before{
                 color: gold;
             }
+            #whatsapp-chat {
+				position: fixed;
+				display: block;
+				bottom: 20px; /* Adjust as needed */
+				right: 20px; /* Adjust as needed */
+				z-index: 1000; /* Ensure it appears above other elements */
+			}
+
+			#whatsapp-chat img {
+			width: 75px; /* Adjust icon size as needed */
+			height: auto;
+			cursor: pointer;
+			animation: shake 3s infinite; /* Add the shake animation */
+			}
+
+			@keyframes shake {
+			0%, 100% { transform: translate(0, 0); }
+			20%, 80% { transform: translate(-5px, 0); } /* Shake to the left */
+			40%, 60% { transform: translate(5px, 0); } /* Shake to the right */
+			}
         </style>
 		<div class="loading-overlay">
 			<div class="bounce-loader">
@@ -178,6 +198,12 @@
                 
 
 			</div>
+
+            <div id="whatsapp-chat">
+				<a href="YOUR_WHATSAPP_LINK_HERE" target="_blank">
+				  <img src="images/WhatsApp_icon.png" alt="WhatsApp Icon">
+				</a>
+			  </div>
 			<footer id="footer" class="bg-color-dark-scale-2 border border-right-0 border-left-0 border-bottom-0 border-color-light-3 mt-0">
 				<div class="container text-center my-3 py-5">
 					<a href="#" class="goto-top"><img alt="Porto" width="108" height="108" class="mb-4" src="images/logo.png" ></a>
@@ -225,6 +251,23 @@
 		
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+
+        <script>
+			// Float WhatsApp icon
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if(document.querySelector(".scroll-to-top")){
+					document.querySelector(".scroll-to-top").remove()
+				}
+			if (document.body.scrollTop > -1 || document.documentElement.scrollTop > -1) {
+				document.getElementById("whatsapp-chat").style.display = "block";
+			} else {
+				document.getElementById("whatsapp-chat").style.display = "none";
+			}
+			}
+
+		</script>
 
 		<!-- Examples -->
 
