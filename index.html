@@ -76,6 +76,40 @@
 			40%, 60% { transform: translate(5px, 0); } /* Shake to the right */
 			}
 
+			.highlight {
+            position: relative;
+            z-index: 9999;
+            animation: highlightAnimation 4s ease-in-out forwards;
+			}
+			.darken {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.8);
+				z-index: 9998;
+			}
+			.pointer {
+				position: absolute;
+				top: -50px;
+				right: -50px;
+				width: 40px;
+				height: 40px;
+				background-color: red;
+				border-radius: 50%;
+				animation: pointerAnimation 4s ease-in-out forwards;
+			}
+			@keyframes highlightAnimation {
+				0% { box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.5); }
+				100% { box-shadow: none; }
+			}
+			@keyframes pointerAnimation {
+				0% { transform: scale(1); }
+				50% { transform: scale(1.2); }
+				100% { transform: scale(1); }
+			}
+
         </style>
 		<div class="loading-overlay">
 			<div class="bounce-loader">
@@ -114,7 +148,6 @@
 															AI Hub
 														</a>
 													</li>
-													<!-- yoo -->
 													
 													<li class="dropdown">
 														<a class="dropdown-item" href="aboutus.html">
@@ -124,7 +157,8 @@
 												</ul>
 											</nav>
 										</div>
-										<a class="btn btn-gradient btn-rounded font-weight-semibold px-4 ml-3 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': 100}" href="https://mateena38.typeform.com/to/HElyfS7T" target="_blank">Register Now!</a>
+										<a id="registerBtn" class="btn btn-gradient btn-rounded font-weight-semibold px-4 ml-3 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': 100}" href="https://mateena38.typeform.com/to/HElyfS7T" target="_blank">Register a free trail Now!</a>
+										<div id="highlightArrow" class="pointer"></div>
 										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav"><i class="fa fa-bars"></i></button>
 									</div>
 								</div>
@@ -2472,6 +2506,17 @@
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
 		<script>
+			$(document).ready(function() {
+            if (!sessionStorage.getItem('highlightShown')) {
+                $('#registerBtn').addClass('highlight');
+                $('#highlightArrow').show();
+                setTimeout(function() {
+                    $('#registerBtn').removeClass('highlight');
+                    $('#highlightArrow').hide();
+                }, 4000);
+                sessionStorage.setItem('highlightShown', 'true');
+            }
+        });
 			// Float WhatsApp icon
 			window.onscroll = function() {scrollFunction()};
 
@@ -2487,6 +2532,8 @@
 			}
 
 		</script>
+
+		
 
 		<!-- Examples -->
 
