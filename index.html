@@ -13,7 +13,7 @@
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="images/logo2.jpg" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/1.png" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
@@ -109,7 +109,28 @@
 				50% { transform: scale(1.2); }
 				100% { transform: scale(1); }
 			}
-
+			.text-color-primary, html .text-primary{
+				color: #9b6931 !important;
+			}
+			.text-color-primary, html .text-primary{
+				color: #9b6931 !important;
+			}
+			.custom-header-bar:before{
+				background-color: #644b2e !important;
+			}
+			.owl-carousel.carousel-center-active-item-2 .owl-item.active > div {
+				background: #9b6931 !important;
+			}
+			.owl-carousel .owl-nav button[class*="owl-"]:hover, .owl-carousel .owl-nav button[class*="owl-"].hover {
+				background-color: #644b2e;
+    			border-color: #9b6931;
+			}
+			.social-icons li:hover.social-icons-twitter a{
+				background: #9b6931 !important;
+			}
+			.social-icons li:hover.social-icons-facebook a{
+				background: #9b6931 !important;
+			}
         </style>
 		<div class="loading-overlay">
 			<div class="bounce-loader">
@@ -127,7 +148,7 @@
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': 100}">
-										<a href="#" class="goto-top"><img style="padding: 8px;"  alt="Porto" width="90" height="80" data-sticky-width="82" data-sticky-height="36" data-sticky-top="0" src="images/logo.png"></a>
+										<a href="#" class="goto-top"><img style="padding: 8px;"  alt="Porto" width="90" height="80" data-sticky-width="82" data-sticky-height="36" data-sticky-top="0" src="images/1.png"></a>
 									</div>
 								</div>
 							</div>
@@ -136,7 +157,7 @@
 									<div class="header-nav header-nav-links header-nav-light-text header-nav-dropdowns-dark">
 										<div class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-text-capitalize header-nav-main-text-size-2 header-nav-main-mobile-dark header-nav-main-effect-1 header-nav-main-sub-effect-1 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': 100}">
 											<nav class="collapse">
-												<ul class="nav nav-pills" id="mainNav">
+												<!-- <ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown">
 														<a class="dropdown-item" href="index.html">
 															Home
@@ -162,12 +183,12 @@
 															About us
 														</a>
 													</li>
-												</ul>
+												</ul> -->
 											</nav>
 										</div>
-										<a id="registerBtn" class="btn btn-gradient btn-rounded font-weight-semibold px-4 ml-3 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': 100}" href="https://mateena38.typeform.com/to/HElyfS7T" target="_blank">Register a free trail Now!</a>
-										<div id="highlightArrow" class="pointer"></div>
-										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav"><i class="fa fa-bars"></i></button>
+										<!-- <a id="registerBtn" class="btn btn-gradient btn-rounded font-weight-semibold px-4 ml-3 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': 100}" href="https://mateena38.typeform.com/to/HElyfS7T" target="_blank">Register a free trail Now!</a> -->
+										<!-- <div id="highlightArrow" class="pointer"></div> -->
+										<!-- <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav"><i class="fa fa-bars"></i></button> -->
 									</div>
 								</div>
 							</div>
@@ -233,25 +254,24 @@
 				<section class="section section-concept section-no-border section-dark section-angled section-angled-reverse pt-5 m-0" id="section-concept" style="background-image: url(img/landing/header_bg.jpg); background-size: cover; background-position: center; animation-duration: 750ms; animation-delay: 300ms; animation-fill-mode: forwards;">
 					<div class="section-angled-layer-bottom bg-light" style="padding: 8rem 0;"></div>
 					<div class="container pt-5 mt-5">
-						<div class="row align-items-center pt-3">
-							<div class="col-lg-5 mb-5">
-								<h5 class="text-primary font-weight-bold mb-1 appear-animation" style="font-size: 36px;line-height: 1;" data-appear-animation="fadeInUpShorter" data-appear-animation-duration="750">WaveCrest International</h5>
-								<h1 class="font-weight-bold text-12 line-height-2 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" data-appear-animation-duration="750" style="font-size: 35px;">Where Tutoring Meets Convenience<span class="appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600" data-appear-animation-duration="800"><span class="d-inline-block text-primary highlighted-word highlighted-word-rotate highlighted-word-animation-1 alternative-font-3 font-weight-bold text-1 ml-2"></span></span></h1>
-								<p class="custom-font-size-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" data-appear-animation-duration="750">Empower Your Learning Journey: Where AI Meets Education Excellence! <a href="#intro" data-hash data-hash-offset="120" class="text-color-light font-weight-semibold text-1 d-block"> </a></p>
-								<a class="video-open lightbox d-block text-color-light appear-animation" href="#popup-content-1" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" data-appear-animation-duration="750" data-plugin-options="{'type':'inline'}"><div class="video-open-icon"></div></a>
+						<div class="row align-items-center pt-3" style="display: block;">
+							<div class="col-lg-5 mb-5" style="width: 100%;max-width: 100%;">
+								<h5 class="text-primary font-weight-bold mb-1 appear-animation" style="font-size: 36px;line-height: 1;" data-appear-animation="fadeInUpShorter" data-appear-animation-duration="750">MHS Real Estate</h5>
+								<h1 class="font-weight-bold text-12 line-height-2 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" data-appear-animation-duration="750" style="font-size: 35px;">Your Trusted Partner in Dubai's Real Estate Market<span class="appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600" data-appear-animation-duration="800"></span></h1>
+								<!-- <a class="video-open lightbox d-block text-color-light appear-animation" href="#popup-content-1" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" data-appear-animation-duration="750" data-plugin-options="{'type':'inline'}"><div class="video-open-icon"></div></a> -->
 
 								<div id="popup-content-1" class="dialog dialog-lg zoom-anim-dialog rounded p-3 mfp-hide mfp-close-out">
 									<div class="embed-responsive embed-responsive-4by3">
 										<video width="100%" height="100%" autoplay muted loop controls>
-										  	<source src="images/video.mp4" type="video/mp4">
+										  	<source src="video/resort.mp4" type="video/mp4">
 										</video>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6 offset-lg-1 mb-5 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1200" data-appear-animation-duration="750">
-								<div class="border-width-10 border-color-light clearfix border border-radius">
+							<div class="col-lg-6 offset-lg-1 mb-5 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1200" data-appear-animation-duration="750" style="width: 100%; max-width: 100%;margin-left: 0px;">
+								<div class=" clearfix border-radius">
 									<video class="float-left" width="100%" height="100%" autoplay muted loop>
-									  	<source src="images/video.mp4" type="video/mp4">
+									  	<source src="video/resort.mp4" type="video/mp4">
 									</video>
 								</div>
 							</div>
@@ -263,184 +283,174 @@
 
 									<h4 class="position-relative text-center font-weight-bold text-7 line-height-2 mb-0">Partner With Us</h4>
 
-									<p class="position-relative text-center font-weight-normal mb-1">* Over a 100+ happy students</p>
+									<p class="position-relative text-center font-weight-normal mb-1">* Over a 100+ happy clients</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section id="intro" class="section section-no-border section-angled bg-light pt-0 pb-5 m-0">
-					<div class="section-angled-layer-bottom section-angled-layer-increase-angle bg-color-light-scale-1" style="padding: 21rem 0;"></div>
-					<div class="container pb-5">
-						<div class="row mb-5 pb-lg-3 counters">
+				<section id="intro" class="section section-no-border section-angled bg-light pt-0 pb-5 m-0" style="padding-bottom: 0px !important;">
+					<div class="container">
+						<div class="row mb-5 pb-lg-3 counters" style="margin-bottom: 0px !important;">
 							<div class="col-lg-10 text-center offset-lg-1">
-								<h2 class="font-weight-bold text-9 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-duration="750" data-plugin-options="{'accY': -200}">Learning students<br> will love</h2>
-								<p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" data-appear-animation-duration="750">ONLINE TUTORING TO <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-semibold line-height-2 pb-2">A NEW LEVEL</span></p>
-								<p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">We envision a world where learning is not just a journey but an exhilarating experience. Our mission is to empower students with the latest advancements in education, ensuring they thrive in an ever-evolving global landscape.</p>
+								<h2 class="font-weight-bold text-9 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-duration="750" data-plugin-options="{'accY': -200}">Find Your <br> Dream Home</h2>
+								<p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" data-appear-animation-duration="750">Experience Real Estate Like Never Before</p>
+								<p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">We envision a world where finding the perfect home is not just a process but an exciting journey. Our mission is to empower buyers and sellers with expert guidance, market insights, and the latest technology, ensuring seamless real estate experiences in an ever-evolving property landscape.</p>
 							</div>
-							<div class="col-sm-6 col-lg-4 offset-lg-2 counter mb-5 mb-md-0">
+							<div class="col-sm-6 col-lg-8 offset-lg-2 counter mb-5 mb-md-0">
 								<div class="appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
 									<h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="100" data-append="+">0</h3>
-									<label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">Students</label>
+									<label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">Clients</label>
 									<p class="text-color-grey font-weight-semibold pb-1 mb-2">100+ Reviews</p>
 									<!-- <p class="mb-0"><a href="#demos" data-hash data-hash-offset="120" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none">VIEW DEMOS <i class="fas fa-long-arrow-alt-right ml-2 text-4 mb-0"></i></a></p> -->
 								</div>
 							</div>
-							<div class="col-sm-6 col-lg-4 counter divider-left-border">
-								<div class="appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
-									<h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="10" data-append="+">0</h3>
-									<label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">Teachers</label>
-									<p class="text-color-grey font-weight-semibold pb-1 mb-2">10+ Reviews</p>
-									<!-- <p class="mb-0"><a href="https://themeforest.net/item/porto-responsive-html5-template/4106987" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none" target="_blank">BUILD WEBSITE <i class="fas fa-long-arrow-alt-right ml-2 text-4 mb-0"></i></a></p> -->
-								</div>
-							</div>
+							
 						</div>
-						<div class="intro row align-items-center justify-content-center justify-content-md-start">
-							<div class="col-3 pr-0 pl-3 z-index-2">
-								<img src="images/ai (3).png" class="img-fluid border border-width-10 border-color-light box-shadow-3 rounded d-none d-md-block appear-animation" alt="Screenshot 2" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
-								<div class="position-absolute d-none d-md-flex align-items-end appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="900" style="bottom: -60px; right: -90px;">
-								</div>
-							</div>
-							<div class="col-11 col-md-9 pl-0 pr-5 pb-5 pb-md-0 mb-5 mb-md-0">
-								<div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation pr-5" data-appear-animation="fadeInUp" data-appear-animation-delay="400"><img src="images/ai (1).jpg" class="img-fluid box-shadow-3 position-relative z-index-1 rounded" alt="Screenshot 1" style="left: -110px;"></div>
-								<div class="intro3 z-index-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="800" style="top: 20%; right: 4%;">
-									<img src="images/pexels-photo-4143797.jpeg" class="img-fluid border border-width-10 border-color-light box-shadow-3 rounded" alt="Screenshot 3">
-									<div class="position-absolute d-none d-md-flex align-items-end appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" style="bottom: -135px; right: -20px;">
-										<span class="arrow hru"></span>
-									</div>
-								</div>
+						<div class="intro row align-items-center justify-content-center justify-content-md-start" style="justify-content: center !important;">
+							
+							<div class="col-12 col-md-12 pb-5 pb-md-0 mb-md-0" style="display: flex;justify-content: center;padding-left: 15px !important;">
+								<div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="400" style=" margin-top: 0px !important;padding-top: 0px !important;"><img src="https://royalplace.co/wp-content/uploads/2024/10/about-us-rp-01.png" class="img-fluid box-shadow-3 position-relative z-index-1 rounded" alt="Screenshot 1" style="padding-right: 0px; margin-top: 0px !important; padding-top: 5px !important;"></div>
+								
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section class="section section-angled section-angled-reverse border-0 m-0 bg-dark section-dark" style="background-image: url(img/landing/header_builder_bg.jpg); background-size: 100%; background-position: top;">
-					<div class="section-angled-layer-top section-angled-layer-increase-angle bg-light" style="padding: 4rem 0;"></div>
-					<div class="container py-5 mt-5">
-						<div class="row align-items-center mt-4 pt-2">
-							<div class="col-lg-6 pr-lg-5 position-relative text-center mb-5 mb-lg-0">
-								<img alt="Porto Headers" src="images/speech-therapy-attendance-regular.jpg" class="img-fluid appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" />
+				<div class="container pt-5 pb-2">
+					<div class="overflow-hidden">
+						<h2 class="text-color-dark font-weight-normal text-6 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" style="animation-delay: 100ms;"><strong class="font-weight-extra-bold">Projects</strong></h2>
+					</div>
+					<div class="overflow-hidden mb-3">
+						<p class="mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="200" style="animation-delay: 200ms;">Discover stunning properties designed for modern living. From luxurious homes to prime commercial spaces, we create exceptional real estate opportunities tailored to your needs.</p>
+					</div>
+					<div class="row">
+						<div class="col">
+							
+							<div class="my-4 lightbox appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}" style="animation-delay: 100ms;">
+								<div class="owl-carousel owl-theme pb-3 owl-loaded owl-drag owl-carousel-init" data-plugin-options="{'items': 4, 'margin': 35, 'loop': false}" style="height: auto;">
+					
+
+									
+
+									
+
+									
+
+									
+
+									
+
+									
+
+									
+
+									
+
+									
+
+									
+
+									
+
+									
+					
+								<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 3435px;"><div class="owl-item active" style="width: 251.25px; margin-right: 35px;"><div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
+											<span class="thumb-info-wrapper border-radius-0">
+												<img src="images/real1.jpeg" class="img-fluid border-radius-0" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Presentation</span>
+													<span class="thumb-info-type">Brand</span>
+												</span>
+											</span>
+										</span>
+									</div></div><div class="owl-item active" style="width: 251.25px; margin-right: 35px;"><div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
+											<span class="thumb-info-wrapper border-radius-0">
+												<img src="images/real2.jpeg" class="img-fluid border-radius-0" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Porto Watch</span>
+													<span class="thumb-info-type">Media</span>
+												</span>
+											</span>
+										</span>
+									</div></div><div class="owl-item active" style="width: 251.25px; margin-right: 35px;"><div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
+											<span class="thumb-info-wrapper border-radius-0">
+												<img src="images/real3.jpeg" class="img-fluid border-radius-0" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Identity</span>
+													<span class="thumb-info-type">Logo</span>
+												</span>
+											</span>
+										</span>
+									</div></div><div class="owl-item active" style="width: 251.25px; margin-right: 35px;"><div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
+											<span class="thumb-info-wrapper border-radius-0">
+												<img src="images/real4.jpeg" class="img-fluid border-radius-0" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Porto Screens</span>
+													<span class="thumb-info-type">Website</span>
+												</span>
+											</span>
+										</span>
+									</div></div><div class="owl-item" style="width: 251.25px; margin-right: 35px;"><div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
+											<span class="thumb-info-wrapper border-radius-0">
+												<img src="images/real5.jpeg" class="img-fluid border-radius-0" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Three Bottles</span>
+													<span class="thumb-info-type">Logo</span>
+												</span>
+											</span>
+										</span>
+									</div></div><div class="owl-item" style="width: 251.25px; margin-right: 35px;"><div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
+											<span class="thumb-info-wrapper border-radius-0">
+												<img src="images/real6.jpeg" class="img-fluid border-radius-0" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Company T-Shirt</span>
+													<span class="thumb-info-type">Brand</span>
+												</span>
+											</span>
+										</span>
+									</div></div><div class="owl-item" style="width: 251.25px; margin-right: 35px;"><div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
+											<span class="thumb-info-wrapper border-radius-0">
+												<img src="images/real9.jpeg" class="img-fluid border-radius-0" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Mobile Mockup</span>
+													<span class="thumb-info-type">Website</span>
+												</span>
+											</span>
+										</span>
+									</div></div><div class="owl-item" style="width: 251.25px; margin-right: 35px;"><div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
+											<span class="thumb-info-wrapper border-radius-0">
+												<img src="images/real8.jpeg" class="img-fluid border-radius-0" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Porto Label</span>
+													<span class="thumb-info-type">Media</span>
+												</span>
+											</span>
+										</span>
+							
+																		</div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation" class="owl-next"></button></div></div>
 							</div>
-							<div class="col-lg-5 text-center px-lg-0">
-								<h5 class="text-primary font-weight-semibold positive-ls-2 text-4 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">INTRODUCING </h5>
-								<h2 class="font-weight-bold text-9 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">Speech Therapy</h2>
-								<p class="custom-text-color-1 color-inherit appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">we understand the critical role effective communication plays in personal and academic success. Our approach to speech therapy is rooted in personalized, empathetic, and evidence-based methods. Through our platform, you'll engage in targeted speech exercises designed to address specific challenges in articulation, fluency, and communication.</p>
-								<p class="custom-text-color-1 color-inherit pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750"> We analyzes your spoken language, providing instant feedback on pronunciation, intonation, and pacing. Guided by experienced speech therapists, you'll embark on a journey of improvement, with tailored exercises and supportive resources to enhance your verbal expression.</p>
-								<!-- <div class="d-flex align-items-center justify-content-center">
-									<i class="fa fa-check text-color-primary bg-light rounded-circle p-2 mr-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1600" data-appear-animation-duration="750"></i>
-									<p class="mb-0 line-height-5 ls-0 text-color-light font-weight-semibold appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1300" data-appear-animation-duration="750">Menus, Nav Icons, Search Icons, Mini Cart,<br>Account Items, Search and much more...</p>
-								</div> -->
-							</div>
+					
+
+					
 						</div>
 					</div>
-				</section>
+				</div>
 
 				
 
-				<section class="section section-no-border section-angled section-dark pb-0 m-0" style="background-image: url(img/landing/reason_bg.png); background-repeat: no-repeat; background-color: #0169fe !important;">
-					<div class="section-angled-layer-top section-angled-layer-increase-angle bg-color-light-scale-1" style="padding: 4rem 0;"></div>
-					<div class="spacer py-md-4 my-md-5"></div>
-					<div class="container pt-5 mt-5">
-						<div class="row align-items-center pt-md-5 mt-5">
-							<div class="col-lg-6 offset-lg-1 mb-5">
-								<!-- <img src="img/landing/porto_dots.png" width="154" height="146" class="position-absolute top-auto" alt="6 reasons" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 3, 'transition': true}" style="bottom: 184px; left: 70px;"> -->
-								<div class="text-reasons">
-									<label class="text-color-light appear-animation z-index-1" data-appear-animation="blurIn" data-appear-animation-delay="250" data-appear-animation-duration="750">6</label>
-									<h3 class="text-4 text-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="450" data-appear-animation-duration="750">Reasons</h3>
-									<h3 class="text-4 text-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">Why you should choose</h3>
-									<h3 class="text-4 text-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="950" data-appear-animation-duration="750"><span class="highlight-word light">WaveCrest</span></h3>
-								</div>
-							</div>
-							<div class="col-lg-5 col-xl-4 pl-lg-4 pl-xl-5 mb-5">
-								<h2 class="text-6 font-weight-semibold line-height-2 mb-2 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1150" data-appear-animation-duration="750">With WaveCrest your satisfaction is guaranteed.</h2>
-								<p class="custom-text-color-1 line-height-5 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1350" data-appear-animation-duration="750">We have selected the 6 top reasons to choose WaveCrest. Check below:</p>
-							</div>
-						</div>
-						<div class="row justify-content-center mt-md-5 mb-4 pt-lg-4">
-							<div class="col-lg-11">	
-								<div class="row justify-content-center">
-									<div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750" style="margin-bottom: 20px;">
-										<img class="img-fluid" alt="Speed Performance" src="images/experienced.jpg">
-										<div class="d-flex align-items-center mb-2">
-											<span class="text-color-dark font-weight-extra-bold text-12 mr-2 line-height-1">1</span>
-											<h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1"></small>Experienced Educators</h4>
-										</div>
-										<p class="pr-2x custom-text-color-1 mb-4">Learn from a team of dedicated educators, technologists, and industry experts committed to your success. Our passionate instructors bring a wealth of knowledge and real-world experience to your learning journey.</p>
-									</div>
-									<div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750" style="margin-bottom: 20px;">
-										<img class="img-fluid" alt="Speed Performance" src="images/Online-Classes-human.jpg">
-										<div class="d-flex align-items-center mb-2">
-											<span class="text-color-dark font-weight-extra-bold text-12 mr-2 line-height-1">2</span>
-											<h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1"></small>Live, Real-Time Classes</h4>
-										</div>
-										<p class="pr-2 custom-text-color-1">We offer an interactive learning experience, allowing students to engage actively, ask questions, and receive immediate feedback. This dynamic environment enhances understanding and retention, making it a valuable addition to education.</p>
-									</div>
-									<div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750" style="margin-bottom: 20px;">
-										<img class="img-fluid" alt="Speed Performance" src="images/online-learning.jpg">
-										<div class="d-flex align-items-center mb-2">
-											<span class="text-color-dark font-weight-extra-bold text-12 mr-2 line-height-1">3</span>
-											<h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1"></small>We Bridge The Gap</h4>
-										</div>
-										<p class="pr-2 custom-text-color-1">Are you tired of feeling like there are missing pieces in your learning journey? Do you find yourself struggling to connect the dots between different concepts and subjects? We are your ultimate destination for filling in those knowledge gaps and enhancing your understanding.</p>
-									</div>
-									<div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300" data-appear-animation-duration="750" style="margin-bottom: 20px;">
-										<img class="img-fluid" alt="Speed Performance" src="images/parent-communication.jpeg">
-										<div class="d-flex align-items-center mb-2">
-											<span class="text-color-dark font-weight-extra-bold text-12 mr-2 line-height-1">4</span>
-											<h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1"></small>Parent Communication</h4>
-										</div>
-										<p class="pr-2 custom-text-color-1">Parent communication is enhanced through weekly and monthly progress reports, providing consistent updates on students' achievements and areas for improvement. Regular parent-teacher meetings further support this communication, fostering collaboration and ensuring students' success.</p>
-									</div>
-									<div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750" style="margin-bottom: 20px;">
-										<img class="img-fluid" alt="Speed Performance" src="images/Speech.jpg">
-										<div class="d-flex align-items-center mb-2">
-											<span class="text-color-dark font-weight-extra-bold text-12 mr-2 line-height-1">5</span>
-											<h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1"></small>Flexible Learning Options</h4>
-										</div>
-										<p class="pr-2 custom-text-color-1">Choose the learning format that suits you best! Opt for personalized 1-to-1 sessions for individualized attention or join group sessions to foster collaborative learning.</p>
-									</div>
-									<div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" data-appear-animation-duration="750" style="margin-bottom: 20px;">
-										<img class="img-fluid" alt="Speed Performance" src="images/homework-doing.png">
-										<div class="d-flex align-items-center mb-2">
-											<span class="text-color-dark font-weight-extra-bold text-12 mr-2 line-height-1">6</span>
-											<h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1"></small>Homework Support</h4>
-										</div>
-										<p class="pr-2 custom-text-color-1">We provides students with the guidance and resources they need to successfully complete their assignments. We also allow students use our software. Simply snap a pic, send it our way, and watch as AI checks and guides you through the answers.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="text-center" style="margin-bottom: 20px;">
-							<a href="https://mateena38.typeform.com/to/HElyfS7T" class="btn btn-dark btn-rounded btn-modern btn-px-5 text-3 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300" target="_blank">Register Now!</a>
-						</div>
-					</div>
-				</section>
+				
 
-				<section id="support" class="section section-angled bg-light border-0 m-0 position-relative z-index-3 pt-0" style="padding: 67px !important; padding-bottom: 0px !important;">
-					<div class="container pb-3 ">
-						<div class="row align-items-center mb-0">
-							<div class="col-lg-12 pr-xl-5 mb-2 mb-lg-0">
-								<h2 class="font-weight-bold text-9 mb-1">Educational Support</h2>
-								<h5 class="font-weight-semibold positive-ls-2 text-4 text-primary mb-3">ONLINE COURSES, VIDEOS AND FORUM</h5>
-								<p class="ls-0 text-default fw-400 mb-5">Any problem in doing your homework? We're here to help you.</p>
-								<div class="d-flex align-items-center border border-top-0 border-right-0 border-left-0 pb-4 mb-4">
-									<i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 mr-3"></i>
-									<p class="mb-0"><b class="text-color-dark">Online Courses -</b> Contains all descriptions related to courses and how to excel in class.</p>
-								</div>
-								<div class="d-flex align-items-center border border-top-0 border-right-0 border-left-0 pb-4 mb-4">
-									<i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 mr-3"></i>
-									<p class="mb-0"><b class="text-color-dark">Video Documentation -</b> Need visual instructions? Check our video tutorials.</p>
-								</div>
-								<div class="d-flex align-items-center pb-4 mb-4">
-									<i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 mr-3"></i>
-									<p class="mb-0"><b class="text-color-dark">Support Center -</b> Contact us if you get any issue while using our resources, reply within 1 hr.</p>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</section> 
+				
 
 				<!-- <section class="section section-no-border section-angled bg-color-light-scale-1 m-0">
 					<div class="section-angled-layer-top section-angled-layer-increase-angle" style="padding: 5rem 0; background-color: #0169fe;"></div>
@@ -1616,7 +1626,7 @@
 					<div class="container  ">
 						<h2 class="fotn-weight-extra-bold mb-1 text-center">
 							<b class="text-13 d-block line-height-1 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="250" data-appear-animation-duration="750">100+</b>
-							<span class="font-weight-bold text-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">Students</span>
+							<span class="font-weight-bold text-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">Clients</span>
 						</h2>
 						<!-- <p class="font-weight-bold text-4 text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">100K+ IN ALL PORTO VERSIONS</p> -->
 						<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="850" data-appear-animation-duration="850">
@@ -1638,7 +1648,7 @@
 											<i class="fas fa-star text-color-dark"></i>
 										</span>
 									</div>
-									<p class="mb-0">"The instructors genuinely care about your success. The 1-to-1 sessions provide the attention needed to grasp complex concepts. A top-tier education platform!"</p>
+									<p class="mb-0">"Exceptional service and market expertise! They made buying our dream home a stress-free experience."</p>
 								</div>	
 								<div>
 									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
@@ -1654,7 +1664,7 @@
 											<i class="fas fa-star text-color-dark"></i>
 										</span>
 									</div>
-									<p class="mb-0">"Our child has flourished with the Speech Therapy program. The dedicated therapists have a remarkable ability to connect with special children. It's more than a learning platform; it's a supportive community."</p>
+									<p class="mb-0">"Professional, reliable, and dedicated. They truly go above and beyond to find the perfect property."</p>
 								</div>
 								<div>
 									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
@@ -1670,7 +1680,7 @@
 											<i class="fas fa-star text-color-dark"></i>
 										</span>
 									</div>
-									<p class="mb-0">" The educators go above and beyond, ensuring a high-quality learning experience. Truly impressed with the depth of knowledge shared."</p>
+									<p class="mb-0">"Smooth and hassle-free process! Their team provided great insights and negotiated the best deal for us."</p>
 								</div>
 								<div>
 									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
@@ -1686,7 +1696,7 @@
 											<i class="fas fa-star text-color-dark"></i>
 										</span>
 									</div>
-									<p class="mb-0">"Our child's confidence has grown, and the positive impact on communication skills is noticeable. Kudos to the caring and dedicated therapists!"</p>
+									<p class="mb-0">"Outstanding customer support! They guided us at every step and made selling our home effortless."</p>
 								</div>
 								<!-- <div>
 									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
@@ -1734,11 +1744,11 @@
 											<i class="fas fa-star text-color-dark"></i>
 										</span>
 									</div>
-									<p class="mb-0">"Online tutoring and speech therapy are impressive, improving my child's skills. Instructors are skilled and sessions are convenient and user-friendly."</p>
+									<p class="mb-0">"Trustworthy and efficient. Their knowledge of the market helped us find the best investment property."</p>
 								</div> 
 							</div>
 						</div>
-						<p class="text-center mb-5"><a class="btn btn-dark btn-modern btn-rounded btn-px-5 btn-py-3 text-2 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="250" data-appear-animation-duration="600" href="https://mateena38.typeform.com/to/HElyfS7T" target="_blank">REGISTER NOW</a></p>
+						<!-- <p class="text-center mb-5"><a class="btn btn-dark btn-modern btn-rounded btn-px-5 btn-py-3 text-2 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="250" data-appear-animation-duration="600" href="https://mateena38.typeform.com/to/HElyfS7T" target="_blank">REGISTER NOW</a></p> -->
 					</div>
 					<!-- <div class="section-funnel-layer-bottom">
 						<div class="section-funnel-layer bg-light"></div>
@@ -2519,16 +2529,15 @@
 			  </div>
 			<footer id="footer" class="bg-color-dark-scale-2 border border-right-0 border-left-0 border-bottom-0 border-color-light-3 mt-0">
 				<div class="container text-center my-3 py-5">
-					<a href="#" class="goto-top"><img alt="Porto" width="108" height="108" class="mb-4" src="images/logo.png" ></a>
+					<a href="#" class="goto-top"><img alt="Porto" width="108" height="108" class="mb-4" src="images/1.png" ></a>
 					<ul class="social-icons social-icons-big social-icons-dark-2">
 						<li class="social-icons-facebook"><a href="https://www.instagram.com/wavecrestinternational/" target="_blank" title="Facebook"><svg style="width: 18px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></li>
 						<li class="social-icons-twitter"><a href="https://l.instagram.com/?u=https%3A%2F%2Fx.com%2Fwavecrest_int%3Fs%3D11&e=AT1vX4D5DjcfHkqjy-5v_ch4VZnU9Yy_eQU1gahaAY71ebkjLifuEUBeijPbND5qfhaosOIM89YKGTNwkrrAoX8j2qe2recKMFn4597zPeqfezkt2duerdg" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-						<li class="social-icons-linkedin"><a href="https://www.linkedin.com/company/wavecrest-international" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
 					</ul>
 				</div>
 				<div class="copyright bg-dark py-4">
 					<div class="container text-center py-2">
-						<p class="mb-0 text-2">Copyright 2021 - 2027 wavecrestinternational - All Rights Reserved</p>
+						<p class="mb-0 text-2">Copyright 2021 - 2027 mhsrealestate - All Rights Reserved</p>
 					</div>
 				</div>
 			</footer>
